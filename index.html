@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBGLOBAL WHEEELS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading animation -->
+    <div class="loader" id="loader"></div>
+
+    <!-- Scroll to top button -->
+    <div class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Modal for gallery -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <span class="modal-close" id="modalClose">&times;</span>
+            <img id="modalImage" src="" alt="Enlarged view">
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-car"></i>
+                MBGLOBAL WHEELS
+            </a>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-container" id="navContainer">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Premium Vehicles For Discerning Clients</h1>
+                <p>Discover the perfect blend of luxury, performance, and reliability with our curated selection of premium vehicles</p>
+                <div class="hero-btns">
+                    <a href="#gallery" class="btn btn-pulse">View Inventory</a>
+                    <a href="#contact" class="btn btn-accent btn-pulse">Book Appointment</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+                <p>Learn about our journey and commitment to excellence in the automotive industry</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <article>
+                        <h3>Our Humble Beginning</h3>
+                        <p>MBGLOBAL WHEELS is your trusted gateway to premium automotive solutions. Since launching in July 2025, we've been committed to delivering excellence in every aspect of vehicle dealership — from importing and exporting cars to sales, spare parts, inspections, and maintenance.</p>
+                        <p>Whether you're buying, selling, or servicing, we combine expertise, transparency, and a passion for cars to give you a smooth, reliable, and rewarding experience.</p>
+                    </article>
+                    <article>
+                        <h3>Our Mission</h3>
+                        <p>At MBGLOBAL WHEELS, our mission is to make owning, buying, and maintaining vehicles simpler, safer, and more rewarding for our customers. We aim to bridge the gap between global automotive markets and local needs by delivering quality vehicles, genuine spare parts, and professional services with honesty, transparency, and unmatched customer care.</p>
+                        <p>We are committed to building long-term relationships founded on trust, delivering excellence in every transaction, and setting a new standard for reliability in the automotive industry.</p>
+                    </article>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Car Dealership">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>Comprehensive automotive solutions tailored to your needs</p>
+            </div>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Car Dealership</h3>
+                    <p>We connect you to the perfect vehicle — from budget-friendly options to premium models — ensuring every purchase is smooth, transparent, and hassle-free.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Import & Export</h3>
+                    <p>We source and deliver vehicles from across the globe, handling all the logistics so you can enjoy a world of automotive options without the stress.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Inspection & Maintenance</h3>
+                    <p>Our skilled team provides thorough vehicle inspections and professional maintenance services to keep your car running safely, efficiently, and reliably.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Clients Say</h2>
+                <p>Hear from our satisfied customers about their experiences</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <p>This company has helped me get the best deal for my auto needs. Their professionalism and attention to detail made the entire process seamless.</p>
+                    <div class="client">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client">
+                        <div class="client-info">
+                            <h4>Adejuwon Bolarin</h4>
+                            <p>Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>The import process was incredibly smooth. My car arrived in perfect condition and exactly when they promised. Will definitely use their services again!</p>
+                    <div class="client">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client">
+                        <div class="client-info">
+                            <h4>Chinwe Okonkwo</h4>
+                            <p>Medical Doctor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>I've used their maintenance services for two years now. Their technicians are knowledgeable and always go the extra mile to ensure my car is in top condition.</p>
+                    <div class="client">
+                        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Client">
+                        <div class="client-info">
+                            <h4>Tunde Adebayo</h4>
+                            <p>Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Featured Vehicles</h2>
+                <p>Explore our premium collection of cars and SUVs</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury SUV">
+                    <div class="gallery-overlay">
+                        <h3>Premium SUV</h3>
+                        <p>2025 Model | Automatic</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sports Car">
+                    <div class="gallery-overlay">
+                        <h3>Sports Edition</h3>
+                        <p>High Performance | 2024</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Executive Sedan">
+                    <div class="gallery-overlay">
+                        <h3>Executive Sedan</h3>
+                        <p>Luxury Comfort | 2025</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Family SUV">
+                    <div class="gallery-overlay">
+                        <h3>Family SUV</h3>
+                        <p>Spacious | 2024 Model</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Electric Vehicle">
+                    <div class="gallery-overlay">
+                        <h3>Electric Vehicle</h3>
+                        <p>Eco-friendly | 2025</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Compact Car">
+                    <div class="gallery-overlay">
+                        <h3>Compact Hatchback</h3>
+                        <p>City Driving | 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our team for inquiries and appointments</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Our Location</h4>
+                                <p>13 Okefia Street, Osogbo, Osun State, Nigeria</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone Number</h4>
+                                <p>+234 810 444 2182</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Address</h4>
+                                <p>mbglobal@yahoo.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Working Hours</h4>
+                                <p>Monday - Saturday: 9:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="Enter your phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>MBGLOBAL WHEELS</h3>
+                    <p>Your trusted partner for premium automotive solutions. We offer the best vehicles and services with unmatched customer care.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#gallery">Vehicle Gallery</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Car Dealership</a></li>
+                        <li><a href="#">Vehicle Import/Export</a></li>
+                        <li><a href="#">Vehicle Inspection</a></li>
+                        <li><a href="#">Maintenance & Repairs</a></li>
+                        <li><a href="#">Spare Parts</a></li>
+                        <li><a href="#">Financing Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="btn btn-accent">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 MBGLOBAL WHEELS. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="script.js">
+</body>
+</html>
